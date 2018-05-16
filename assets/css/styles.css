@@ -1,8 +1,3 @@
-/*Nav bg */
-.greenBG {
-    background-color: #4aaaa5;
-}
-
 body{
     background-image: url("../images/bg2.png");
 }
@@ -26,7 +21,14 @@ body{
     font-family: 'Luckiest Guy', cursive;
 }
 
+
 .card
 {
     margin: 10px;
+}
+
+
+/*Nav bg */
+.greenBG {
+    background-color: #4aaaa5;
 }
