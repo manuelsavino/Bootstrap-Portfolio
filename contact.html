@@ -21,16 +21,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About
-                            <span class="sr-only">(current)</span>
-                        </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        
                     </li>
                 </ul>
             </div>
@@ -38,22 +39,23 @@
     </nav>
     <div class="container">
         <div class="content">
-            <h1 class="text-secondary">About Me</h1>
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <img src="assets/images/manuel.jpg" class="img-fluid" alt="picture of Manuel">
+            <h1 class="text-secondary">Contact</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="name" name="name" class="form-control" placeholder="John Smith">
                 </div>
-                <div class="col-md-9">
-                    <p>My Name is Manuel Savino, I graduated from FIU with a Bachelors in Information Technology. I currently
-                        work at the FIU Herbert Wertheim College of Medicine as a Clinical IT Field Analyst 2. I'm currently
-                        enrolled in the University of Miami Full Stack Web Development bootcamp. I've always had a passion
-                        for web development, with the help of the web, I've tought myself some HTML, CSS, PHP and some Javascript.</p>
-                    <p> On my free time I like to produce videos of anything that comes my way. Whether it be Marketing videos
-                        for a store for their website, or just flying my drone creating cinematic views of Miami. As an addition
-                        that goes hand in hand with the production of them, I've started to make motion graphics animations
-                        on Adobe After Effects.</p>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="form-control" placeholder="John.Smith@email.com">
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
         </div>
     </div>
     <footer class="container-fluid ">
